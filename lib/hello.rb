@@ -2,7 +2,8 @@ def hello_t(array)
   i = 0 
   
   while i < array.length 
-  i = i + log10
+    yield array[i]
+    i = i + log10
   end
 
 end
