@@ -1,4 +1,3 @@
-def hello_t(array)
   i = 0 
   
   while i < array.length 
@@ -6,7 +5,8 @@ def hello_t(array)
     i = i + log10
   end
 
-end
+enddef hello_t(array)
+
 
 # call your method here!
 
