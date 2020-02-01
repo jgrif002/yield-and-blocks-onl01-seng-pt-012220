@@ -1,11 +1,4 @@
-  i = 0 
-  
-  while i < array.length 
-    yield array[i]
-    i = i + log10
-  end
 
-enddef hello_t(array)
 
 
 # call your method here!
